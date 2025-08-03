@@ -1,0 +1,44 @@
+{
+  "name": "extensions",
+  "version": "1.0.0",
+  "description": "🧠🔌 NeoPilot Extensions Hub · Central Repository for Community-Powered Intelligence",
+  "keywords": [
+    "neopilot",
+    "extensions"
+  ],
+  "homepage": "https://github.com/neopilot-ai/extensions#readme",
+  "bugs": {
+    "url": "https://github.com/neopilot-ai/extensions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neopilot-ai/extensions.git"
+  },
+  "license": "ISC",
+  "author": "NeoPilot AI",
+  "type": "commonjs",
+  "main": "src/cli.js",
+  "scripts": {
+    "fmt": "prettier --write .",
+    "build": "rm -rf dist && tsc",
+    "start": "node dist/cli.js",
+    "test:watch": "vitest",
+    "extensions": "node dist/cli.js",
+    "sort": "node dist/extensions.js",
+    "test": "vitest run",
+    "postinstall": "npm run build"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/node": "^24.1.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@iarna/toml": "^2.2.5",
+    "git-submodule-js": "^1.0.4"
+  }
+}
