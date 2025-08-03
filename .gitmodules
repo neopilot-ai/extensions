@@ -1,3 +1,6 @@
 [submodule "extensions/font-kit"]
 	path = extensions/font-kit
 	url = https://github.com/servo/font-kit.git
+[submodule "extensions/async-tls"]
+	path = extensions/async-tls
+	url = https://github.com/async-rs/async-tls
