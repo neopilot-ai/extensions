@@ -4,3 +4,6 @@
 [submodule "extensions/async-tls"]
 	path = extensions/async-tls
 	url = https://github.com/async-rs/async-tls
+[submodule "cosmic-text"]
+	path = cosmic-text
+	url = https://github.com/pop-os/cosmic-text
