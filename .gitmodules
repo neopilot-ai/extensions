@@ -7,3 +7,27 @@
 [submodule "extensions/cosmic-text"]
 	path = extensions/cosmic-text
 	url = https://github.com/pop-os/cosmic-text.git
+[submodule "extensions/egui"]
+	path = extensions/egui
+	url = https://github.com/emilk/egui
+[submodule "extensions/terminal"]
+	path = extensions/terminal
+	url = https://github.com/microsoft/terminal
+[submodule "extensions/wgpu"]
+	path = extensions/wgpu
+	url = https://github.com/gfx-rs/wgpu
+[submodule "extensions/winit"]
+	path = extensions/winit
+	url = https://github.com/rust-windowing/winit
+[submodule "extensions/candle"]
+	path = extensions/candle
+	url = https://github.com/huggingface/candle
+[submodule "extensions/sentry-cocoa"]
+	path = extensions/sentry-cocoa
+	url = https://github.com/getsentry/sentry-cocoa
+[submodule "extensions/vte"]
+	path = extensions/vte
+	url = https://github.com/alacritty/vte
+[submodule "extensions/yaml-rust"]
+	path = extensions/yaml-rust
+	url = https://github.com/chyh1990/yaml-rust
